@@ -3,7 +3,9 @@
 ### Otherview
 This repo is a course project for the course "Getting and Cleaning data" available in Coursera.
 The goal is to collect and prepare tidy data that can be used for later analysis. 
-The source data for this project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The source data for this project: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ### Project steps description
  
