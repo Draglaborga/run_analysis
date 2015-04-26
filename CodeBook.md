@@ -35,9 +35,9 @@ The data contains two sets: the training data and the test data - in "train" and
   - Mag: magnitude
 
 ###Transformations
-#### Getting data
-#Download data into a 'data' folder and unzip data
 
+#### Getting data
+Download data into a 'data' folder and unzip data
 #### Step 1. Merge the training and the test sets to create one data set. 
 #### Step 2. Extract only the measurements on the mean and standard deviation for each measurement.
 #### Step 3. Use descriptive activity names to name the activities in the data set.
