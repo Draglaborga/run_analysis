@@ -39,7 +39,20 @@ The data contains two sets: the training data and the test data - in "train" and
 #### Getting data
 Download data into a 'data' folder and unzip data
 #### Step 1. Merge the training and the test sets to create one data set. 
+Reading test and train data and combined to 'x', 'y' and 'subject' data frames using 'rbind' function. 
+
 #### Step 2. Extract only the measurements on the mean and standard deviation for each measurement.
+Extracting numbers of names of features which contain '-mean()' and '-std()' text. Combine them to one sorted vector with numbers of columns of measurement to extract. Extracting them from 'x' data frame.
+Rename variables in 'x' to features names.
+
 #### Step 3. Use descriptive activity names to name the activities in the data set.
+Replace numbers of activities in 'y' using activities labels. And name the column. 
+
 #### Step 4. Appropriately labels the data set with descriptive variable names.
+Name 'subject' and combine data of 'subject', 'y' and 'x' together by columns. 
+Rename variables to more descriptive names.
+
 #### Step 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Using 'ddply' function to split it up by subject and activity and calculate mean of each column of subsets.
+Saving result to file 'tidy_data.txt'
